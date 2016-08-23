@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/root">
+
+
+    <ImageView
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/slideNerd"
+        android:src="@drawable/slidenerd"
+        android:layout_weight="0.18"
+       />
+
+    <TextView
+        android:layout_width="407dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="This is the toast tutorial no 2 "
+        android:id="@+id/textView"
+        android:layout_weight="0.15"
+        android:gravity="center|center_horizontal" />
+</LinearLayout>

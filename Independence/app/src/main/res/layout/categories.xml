@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/cateogory_listmargin"
+                android:layout_marginBottom="1dp"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/download"
+                    android:scaleType="fitXY"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Pakistan History"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/cateogory_listmargin"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/wonders"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Wonder Of Pakistan"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/cateogory_listmargin"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/milinagma"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    android:scaleType="fitXY"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Pakistani National Songs"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/cateogory_listmargin"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/qauid"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Quaid-E-Azam"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="1dp"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/allama"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Allama Iqbal"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/cateogory_listmargin"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/sirsyed"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Sir Syed Ahmed Khan"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="1dp"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/raheel1"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="General Raheel Shareef"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="1dp"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/afridi"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Shahid Afridi"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/cateogory_listmargin"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/saylani"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Saylani Inetrnational Trust"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="@dimen/cateogory_listmargin"
+                >
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/uok"
+                    android:layout_marginRight="-3dp"
+                    android:layout_marginLeft="-7dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="University of Karachi"
+                    style="@style/CategoryStyle"
+                    android:background="#7bdf2a"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="-6dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

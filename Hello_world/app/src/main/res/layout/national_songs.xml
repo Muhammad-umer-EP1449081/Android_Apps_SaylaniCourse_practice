@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:id="@+id/image_view_category"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/songs"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_category"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        tools:text="asdfasdfa"
+        android:layout_toRightOf="@id/image_view_category"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:background="#FF63DA37"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:src="@drawable/ic_play_arrow_white_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/image_view_category"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+
+
+
+
+</RelativeLayout>
